@@ -1,4 +1,4 @@
-# ESP32 Scope Calibrator 🛠️
+# ESP32 Scope Calibrator 
 
 A simple yet precise workbench utility. This project leverages the ESP32's built-in Hardware PWM generator (LEDC) to output a highly stable **1 kHz square wave with a 50% duty cycle**. It is ideal for frequency compensation and probe calibration on portable or benchtop oscilloscopes.
 
@@ -14,7 +14,7 @@ Connecting your oscilloscope is straightforward:
 1. **GND**: Connect your probe's ground clip to any **GND pin** on the ESP32.
 2. **Signal**: Connect the probe tip to **GPIO 18** (Pin 18) on the ESP32.
 
-> ⚠️ **Important:** Without a shared ground (GND) connection, your oscilloscope will only display signal noise!
+> **Important:** Without a shared ground (GND) connection, your oscilloscope will only display signal noise!
 
 ## Software & Installation
 
